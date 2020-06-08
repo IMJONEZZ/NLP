@@ -8,7 +8,7 @@ def print_levenshtein(string1, string2):
 
 # Check the distance between
 # any two words here!
-print_levenshtein("fart", "target")
+print_levenshtein("squanker", "target")
 
 # Assign passing strings here:
 three_away_from_code = "dot"
