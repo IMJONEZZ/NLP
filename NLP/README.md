@@ -1,6 +1,6 @@
 ### NLP
 
-This notebook contains example implementations of a bunch of helpful NLP program implementations such as:
+This repository contains example implementations of a bunch of helpful NLP program implementations such as:
 - Bag of Words: A statistical language model that uses wordcounts to make other important conclusions from text
 - Levenshtein Distance: An algorithm for measuring the distance between words by measuring how many changes in spelling it would take to change one word into another.
 - Markov Chains: A stochastic (basically random) language model that chains events together to determine the probability of subsequent events.
