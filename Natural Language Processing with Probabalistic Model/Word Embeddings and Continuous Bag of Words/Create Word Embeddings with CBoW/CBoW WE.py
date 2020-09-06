@@ -704,7 +704,7 @@ print(X.shape, idx)  # X.shape:  Number of words of dimension N each
 # In[35]:
 
 
-result= compute_pca(X, 2)
+result = compute_pca(X, 2)
 pyplot.scatter(result[:, 0], result[:, 1])
 for i, word in enumerate(words):
     pyplot.annotate(word, xy=(result[i, 0], result[i, 1]))
@@ -716,7 +716,7 @@ pyplot.show()
 # In[36]:
 
 
-result= compute_pca(X, 4)
+result = compute_pca(X, 4)
 pyplot.scatter(result[:, 3], result[:, 1])
 for i, word in enumerate(words):
     pyplot.annotate(word, xy=(result[i, 3], result[i, 1]))
