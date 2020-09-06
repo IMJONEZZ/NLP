@@ -5,7 +5,16 @@ This repo contains reference work that I've done for my career and schooling tha
 > I've taken special care to make sure it's compatible through the latest versions  
 >>(currently 3.8.x).
 
-There are 3 main folders at this point:
+## Publications:
+This folder contains publications, complete with code to run for yourselves.
+- Machine Learning Based Chat Analysis (Libchat)
+    - November 2020
+    - Includes Toy Dataset
+    - Does not include production model
+> Abstract:
+> The BYU library implmented a machine learning based tool to perform various text analysis tasks on transcripts of chat-based interactions between patrons and librarians. These text analysis tasks included estimating patron satisfaction, and classifying queries into various categories such as Research/Reference, Directional, Tech/Troubleshooting, Policy/Procedure, and others. An accuracy of 78% or better was achieved for each category. This paper details the implementation details and explores potential applications for the text analysis tool.
+
+
 - Natural Language Processing with Classification and Vector Spaces
     - This folder contains the basics for these subjects:
         - Preprocessing text for NLP
@@ -17,7 +26,7 @@ There are 3 main folders at this point:
         - The HashTable data structure and its use for rudimentary machine translation
         - Final Project: Machine Translation and Locality Sensitive Hashing
         - Adapted from the NLP specialization from deeplearning.ai (Stanford University professors' side hustle)
-- Natural Language Processing with Probabalistic Model
+- Natural Language Processing with Probabalistic Models
     - This folder takes the concepts from the first folder one step further, allowing for slightly more complex implementations:
         - Minimum Edit Distance - Autocorrect: Contains data to go from building a vocabulary from text all the way to utilizing Levenshtein distance to detect whether a given word is incorrect and suggest replacements
         - Part of Speech Tagging: How to do it with probabilities, and what its limitations are
@@ -26,6 +35,10 @@ There are 3 main folders at this point:
         - What is a Continuous Bag of Words model, and how does it differ from the Bag of Words model in the NLP folder?
         - How to get Word embeddings for use in other applications, like the Naive Bayes Classifier in the Classification folder
         - Final Project: Creating Word Embeddings from Shakespeare text with a Continuous Bag of Words Model
+- Natural Language Processing with Sequence Models
+    - Welcome to deep neural networks for completing the same tasks we've already learned about! Why are DNN's better? They're quicker, require less code, and are many times more accurate.
+        - Intro to Trax: Why not PyTorch or TensorFlow?
+        - Sentiment Analysis on a DNN
 - NLP
     - This folder contains its own README because it concerns primarily language modelling. From bag of words all the way to neural language models, there are easy-to-follow and change implementations with fun little examples to go with them. 
     - Adapted from the NLP specialization at Codecademy.
