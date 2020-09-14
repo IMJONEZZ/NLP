@@ -14,6 +14,10 @@ This folder contains publications, complete with code to run for yourselves.
 > Abstract:
 > The BYU library implmented a machine learning based tool to perform various text analysis tasks on transcripts of chat-based interactions between patrons and librarians. These text analysis tasks included estimating patron satisfaction, and classifying queries into various categories such as Research/Reference, Directional, Tech/Troubleshooting, Policy/Procedure, and others. An accuracy of 78% or better was achieved for each category. This paper details the implementation details and explores potential applications for the text analysis tool.
 
+- Linguistics
+    - This folder contains basic linguistic principles required to evaluate any NLP task and provide better QA than any BLEU score could give
+    - From ancient writing systems to modern semantics, this folder contains pictures and presentations explaining everything you need to be able to understand where language came from, why it's here, and where it's going.
+    - Chris, I'm a computer science major, so how can this possibly help me? I'll tell you fine fellow! Have you ever wondered why machine translation between English and Arabic or English and Japanese is uncharacteristically bad? Simply put, most of the people who have worked on these systems have not known the intricacies of Alphabets vs Abjads vs Logo-Syllabaries. This is not a diss or an accusation, but we are now at a point where we can apply mathematics to the linguistics in order to improve specific languages. This requires a solid foundation in both parts, otherwise we will end up with the same or similar results compared with what we've gotten before.
 
 - Natural Language Processing with Classification and Vector Spaces
     - This folder contains the basics for these subjects:
