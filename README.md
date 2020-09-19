@@ -43,6 +43,12 @@ This folder contains publications, complete with code to run for yourselves.
 - Welcome to deep neural networks for completing the same tasks we've already learned about! Why are DNN's better? They're quicker, require less code, and are many times more accurate.
     - Intro to Trax: Why not PyTorch or TensorFlow?
     - Sentiment Analysis on a DNN
+    - Autocorrect on a GRU (deep N-grams as opposed to the shallow ones in previous sections)
+    - LSTMs, RNNs, and GRUs: What's the difference, and what are the use cases?
+    - Named Entity Recognition with an LSTM - Want to build a bot to summarize academic papers for you?
+    - One-shot learning, how to use a threshold and one set of weights to avoid retraining on every new piece of data
+    - Siamese Networks - How do we determine whether an utterance means the same thing as another utterance (e.g. How old are you vs. What is your age)
+    - Final Project: Question similarity on Siamese LSTMs using Quora's Question dataset.
 ## NLP
 - This folder contains its own README because it concerns primarily language modelling. From bag of words all the way to neural language models, there are easy-to-follow and change implementations with fun little examples to go with them. 
     - Adapted from the NLP specialization at Codecademy.
