@@ -49,6 +49,12 @@ This folder contains publications, complete with code to run for yourselves.
     - One-shot learning, how to use a threshold and one set of weights to avoid retraining on every new piece of data
     - Siamese Networks - How do we determine whether an utterance means the same thing as another utterance (e.g. How old are you vs. What is your age)
     - Final Project: Question similarity on Siamese LSTMs using Quora's Question dataset.
+## Natural Language Processing with Attention Models
+- While the last folder (sequence models) contains most of the models that are currently deployed or being deployed by businesses to production, this folder contains methods for state-of-the-art with attention models. Big thanks to Google's DeepMind team for coming up with this.
+    - Attention: What is it? How do you do it? What types are there? All of these questions are answered.
+    - Neural Machine Translation with Attention - build upon other MT projects contained in this repo (Locality Sensitive Hashing, seq2seq, both deep and shallow) and add attention to machine translation. If you're extra quick, you'll be able to do it with a transformer too!
+    - Translation scoring metrics - learn about BLEU, ROUGE, and F1. Which should you use when? What are the pros and cons to each?
+    - Summarize text with a transformer network built from scratch.
 ## NLP
 - This folder contains its own README because it concerns primarily language modelling. From bag of words all the way to neural language models, there are easy-to-follow and change implementations with fun little examples to go with them. 
     - Adapted from the NLP specialization at Codecademy.
