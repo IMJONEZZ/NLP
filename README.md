@@ -55,6 +55,9 @@ This folder contains publications, complete with code to run for yourselves.
     - Neural Machine Translation with Attention - build upon other MT projects contained in this repo (Locality Sensitive Hashing, seq2seq, both deep and shallow) and add attention to machine translation. If you're extra quick, you'll be able to do it with a transformer too!
     - Translation scoring metrics - learn about BLEU, ROUGE, and F1. Which should you use when? What are the pros and cons to each?
     - Summarize text with a transformer network built from scratch.
+    - Byte Pair Encoding and SentencePiece
+    - Transfer Learning - What are the limits? When should you Transfer Learn instead of training from scratch? How do you do it?
+    - Answer Questions with T5 with a finetuned Question Answer model
 ## NLP
 - This folder contains its own README because it concerns primarily language modelling. From bag of words all the way to neural language models, there are easy-to-follow and change implementations with fun little examples to go with them. 
     - Adapted from the NLP specialization at Codecademy.
