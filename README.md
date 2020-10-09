@@ -58,6 +58,8 @@ This folder contains publications, complete with code to run for yourselves.
     - Byte Pair Encoding and SentencePiece
     - Transfer Learning - What are the limits? When should you Transfer Learn instead of training from scratch? How do you do it?
     - Answer Questions with T5 with a finetuned Question Answer model
+    - Why is a reversible transformer the better kind of transformer?
+    - Final Project: Chatbot with Revnet
 ## NLP
 - This folder contains its own README because it concerns primarily language modelling. From bag of words all the way to neural language models, there are easy-to-follow and change implementations with fun little examples to go with them. 
     - Adapted from the NLP specialization at Codecademy.
