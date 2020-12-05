@@ -417,7 +417,7 @@ def compute_loss(X, Y, R):
     '''
     Inputs: 
         X: a matrix of dimension (m,n) where the columns are the English embeddings.
-        Y: a matrix of dimension (m,n) where the columns correspong to the French embeddings.
+        Y: a matrix of dimension (m,n) where the columns correspond to the French embeddings.
         R: a matrix of dimension (n,n) - transformation matrix from English to French vector space embeddings.
     Outputs:
         L: a matrix of dimension (m,n) - the value of the loss function for given X, Y and R.
@@ -1213,7 +1213,7 @@ np.random.seed(0)
 idx = 0
 planes = planes_l[idx]  # get one 'universe' of planes to test the function
 vec = np.random.rand(1, 300)
-print(f" The hash value for this vector,",
+print(f"The hash value for this vector,",
       f"and the set of planes at index {idx},",
       f"is {hash_value_of_vector(vec, planes)}")
 
