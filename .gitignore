@@ -2,3 +2,8 @@
 *.bin
 *.pkl
 *.csv
+en-sk.txt
+SKDataset.txt
+SKDataset_part_1.txt
+*.pth
+*.pyc
