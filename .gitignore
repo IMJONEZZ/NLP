@@ -7,3 +7,4 @@ SKDataset.txt
 SKDataset_part_1.txt
 *.pth
 *.pyc
+*.pt
