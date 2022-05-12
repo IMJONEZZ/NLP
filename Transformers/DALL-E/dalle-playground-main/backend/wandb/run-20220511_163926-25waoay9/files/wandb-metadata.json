@@ -1,0 +1,22 @@
+{
+    "os": "Linux-4.4.0-19041-Microsoft-x86_64-with-glibc2.29",
+    "python": "3.8.10",
+    "heartbeatAt": "2022-05-11T22:39:29.785595",
+    "startedAt": "2022-05-11T22:39:26.978460",
+    "docker": null,
+    "cpu_count": 20,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "app.py",
+    "codePath": "Transformers/DALL-E/dalle-playground-main/backend/app.py",
+    "git": {
+        "remote": "git@github.com:IMJONEZZ/NLP.git",
+        "commit": "4b40a419e8802cda8b834d57f725affb0a205eac"
+    },
+    "email": null,
+    "root": "/mnt/nasty/Programming/NLP",
+    "host": "DESKTOP-773P3MR",
+    "username": "imjonezz",
+    "executable": "/usr/bin/python3"
+}

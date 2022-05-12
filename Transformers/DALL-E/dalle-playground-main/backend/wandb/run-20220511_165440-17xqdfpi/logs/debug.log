@@ -1,0 +1,28 @@
+2022-05-11 16:54:40,693 INFO    MainThread:913 [wandb_setup.py:_flush():76] Loading settings from /home/imjonezz/.config/wandb/settings
+2022-05-11 16:54:40,693 INFO    MainThread:913 [wandb_setup.py:_flush():76] Loading settings from /mnt/nasty/Programming/NLP/Transformers/DALL-E/dalle-playground-main/backend/wandb/settings
+2022-05-11 16:54:40,694 INFO    MainThread:913 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2022-05-11 16:54:40,695 INFO    MainThread:913 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'Transformers/DALL-E/dalle-playground-main/backend/app.py', 'program': 'app.py'}
+2022-05-11 16:54:40,696 INFO    MainThread:913 [wandb_setup.py:_flush():76] Applying login settings: {'anonymous': 'must'}
+2022-05-11 16:54:40,696 INFO    MainThread:913 [wandb_init.py:_log_setup():428] Logging user logs to /mnt/nasty/Programming/NLP/Transformers/DALL-E/dalle-playground-main/backend/wandb/run-20220511_165440-17xqdfpi/logs/debug.log
+2022-05-11 16:54:40,697 INFO    MainThread:913 [wandb_init.py:_log_setup():429] Logging internal logs to /mnt/nasty/Programming/NLP/Transformers/DALL-E/dalle-playground-main/backend/wandb/run-20220511_165440-17xqdfpi/logs/debug-internal.log
+2022-05-11 16:54:40,698 INFO    MainThread:913 [wandb_init.py:init():462] calling init triggers
+2022-05-11 16:54:40,698 INFO    MainThread:913 [wandb_init.py:init():465] wandb.init called with sweep_config: {}
+config: {}
+2022-05-11 16:54:40,699 INFO    MainThread:913 [wandb_init.py:init():515] starting backend
+2022-05-11 16:54:40,700 INFO    MainThread:913 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-05-11 16:54:40,785 INFO    MainThread:913 [backend.py:ensure_launched():217] starting backend process...
+2022-05-11 16:54:40,859 INFO    MainThread:913 [backend.py:ensure_launched():222] started backend process with pid: 1051
+2022-05-11 16:54:40,860 INFO    MainThread:913 [wandb_init.py:init():525] backend started and connected
+2022-05-11 16:54:40,867 INFO    MainThread:913 [wandb_init.py:init():596] updated telemetry
+2022-05-11 16:54:41,097 INFO    MainThread:913 [wandb_init.py:init():627] communicating run to backend with 30 second timeout
+2022-05-11 16:54:41,848 INFO    MainThread:913 [wandb_run.py:_on_init():1924] communicating current version
+2022-05-11 16:54:41,968 INFO    MainThread:913 [wandb_run.py:_on_init():1928] got version response 
+2022-05-11 16:54:41,970 INFO    MainThread:913 [wandb_init.py:init():662] starting run threads in backend
+2022-05-11 16:54:43,898 INFO    MainThread:913 [wandb_run.py:_console_start():1898] atexit reg
+2022-05-11 16:54:43,901 INFO    MainThread:913 [wandb_run.py:_redirect():1771] redirect: SettingsConsole.REDIRECT
+2022-05-11 16:54:43,902 INFO    MainThread:913 [wandb_run.py:_redirect():1776] Redirecting console.
+2022-05-11 16:54:43,905 INFO    MainThread:913 [wandb_run.py:_redirect():1832] Redirects installed.
+2022-05-11 16:54:43,906 INFO    MainThread:913 [wandb_init.py:init():688] run started, returning control to user process
+2022-05-11 16:55:18,418 INFO    MainThread:913 [wandb_run.py:_atexit_cleanup():1867] got exitcode: 255
+2022-05-11 16:55:18,425 INFO    MainThread:913 [wandb_run.py:_restore():1839] restore
+2022-05-11 16:55:20,958 INFO    MainThread:913 [wandb_run.py:_restore():1839] restore

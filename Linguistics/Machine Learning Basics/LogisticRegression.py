@@ -26,7 +26,7 @@ test_df['Embarked']=test_df['Embarked'].apply(lambda x:e[x])
 X = df.to_numpy()
 test_X = test_df.to_numpy()
 
-model = LogisticRegression(max_iter=1000).fit(X[:,:-1], X[:,-1])
+model = LogisticRegression(max_iter=2000).fit(X[:,:-1], X[:,-1])
 
 res = model.predict(X[:,:-1])
 print("Accuracy Score on training set: ",accuracy_score(res, X[:,-1]))

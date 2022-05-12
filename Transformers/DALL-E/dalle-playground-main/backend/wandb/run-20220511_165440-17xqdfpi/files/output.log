@@ -1,0 +1,67 @@
+
+[34m[1mwandb[39m[22m: Downloading large artifact mega-1:latest, 9873.84MB. 7 files... Traceback (most recent call last):
+  File "/home/imjonezz/.local/lib/python3.8/site-packages/dalle_mini/model/utils.py", line 23, in from_pretrained
+    pretrained_model_name_or_path = artifact.download(tmp_dir)
+  File "/home/imjonezz/.local/lib/python3.8/site-packages/wandb/apis/public.py", line 3860, in download
+    pool.map(partial(self._download_file, root=dirpath), manifest.entries)
+  File "/usr/lib/python3.8/multiprocessing/pool.py", line 364, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/usr/lib/python3.8/multiprocessing/pool.py", line 765, in get
+    self.wait(timeout)
+  File "/usr/lib/python3.8/multiprocessing/pool.py", line 762, in wait
+    self._event.wait(timeout)
+  File "/usr/lib/python3.8/threading.py", line 558, in wait
+    signaled = self._cond.wait(timeout)
+  File "/usr/lib/python3.8/threading.py", line 302, in wait
+    waiter.acquire()
+KeyboardInterrupt
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "app.py", line 56, in <module>
+    model = DalleBart.from_pretrained(DALLE_MODEL, revision=DALLE_COMMIT_ID)
+  File "/home/imjonezz/.local/lib/python3.8/site-packages/dalle_mini/model/utils.py", line 25, in from_pretrained
+    return super(PretrainedFromWandbMixin, cls).from_pretrained(
+  File "/usr/lib/python3.8/tempfile.py", line 966, in __exit__
+    self.cleanup()
+  File "/usr/lib/python3.8/tempfile.py", line 970, in cleanup
+    self._rmtree(self.name)
+  File "/usr/lib/python3.8/tempfile.py", line 952, in _rmtree
+    _rmtree(name, onerror=onerror)
+  File "/usr/lib/python3.8/shutil.py", line 718, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/usr/lib/python3.8/shutil.py", line 673, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/imjonezz/.local/lib/python3.8/site-packages/dalle_mini/model/utils.py", line 23, in from_pretrained
+    pretrained_model_name_or_path = artifact.download(tmp_dir)
+  File "/home/imjonezz/.local/lib/python3.8/site-packages/wandb/apis/public.py", line 3860, in download
+    pool.map(partial(self._download_file, root=dirpath), manifest.entries)
+  File "/usr/lib/python3.8/multiprocessing/pool.py", line 364, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/usr/lib/python3.8/multiprocessing/pool.py", line 765, in get
+    self.wait(timeout)
+  File "/usr/lib/python3.8/multiprocessing/pool.py", line 762, in wait
+    self._event.wait(timeout)
+  File "/usr/lib/python3.8/threading.py", line 558, in wait
+    signaled = self._cond.wait(timeout)
+  File "/usr/lib/python3.8/threading.py", line 302, in wait
+    waiter.acquire()
+KeyboardInterrupt
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "app.py", line 56, in <module>
+    model = DalleBart.from_pretrained(DALLE_MODEL, revision=DALLE_COMMIT_ID)
+  File "/home/imjonezz/.local/lib/python3.8/site-packages/dalle_mini/model/utils.py", line 25, in from_pretrained
+    return super(PretrainedFromWandbMixin, cls).from_pretrained(
+  File "/usr/lib/python3.8/tempfile.py", line 966, in __exit__
+    self.cleanup()
+  File "/usr/lib/python3.8/tempfile.py", line 970, in cleanup
+    self._rmtree(self.name)
+  File "/usr/lib/python3.8/tempfile.py", line 952, in _rmtree
+    _rmtree(name, onerror=onerror)
+  File "/usr/lib/python3.8/shutil.py", line 718, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/usr/lib/python3.8/shutil.py", line 673, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+KeyboardInterrupt

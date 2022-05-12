@@ -19,4 +19,6 @@ X = df.to_numpy()
 model = KMeans(5).fit(X[:,:-1], X[:,-1])
 
 cc = model.cluster_centers_
+new = pd.DataFrame(cc)
+new.to_csv('centers.csv')
 print(cc)

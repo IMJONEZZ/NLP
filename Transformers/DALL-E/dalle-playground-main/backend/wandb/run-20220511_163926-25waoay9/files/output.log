@@ -1,0 +1,35 @@
+
+
+[34m[1mwandb[39m[22m: Downloading large artifact mega-1:latest, 9873.84MB. 7 files... Done. 0:0:0
+Downloading: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 434/434 [00:00<00:00, 199kB/s]
+
+
+
+Downloading: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 290M/290M [00:06<00:00, 43.5MB/s]
+
+[34m[1mwandb[39m[22m: Downloading large artifact mega-1:latest, 9873.84MB. 7 files... Done. 0:0:0
+Downloading: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 33.8M/33.8M [00:00<00:00, 49.5MB/s]
+Traceback (most recent call last):
+  File "app.py", line 147, in <module>
+    generate_images("warm-up", 1)
+  File "app.py", line 102, in generate_images
+    for i in trange(num_predictions // jax.device_count()):
+  File "/home/imjonezz/.local/lib/python3.8/site-packages/tqdm/notebook.py", line 319, in tnrange
+    return tqdm_notebook(_range(*args), **kwargs)
+  File "/home/imjonezz/.local/lib/python3.8/site-packages/tqdm/notebook.py", line 239, in __init__
+    self.container = self.status_printer(self.fp, total, self.desc, self.ncols)
+  File "/home/imjonezz/.local/lib/python3.8/site-packages/tqdm/notebook.py", line 112, in status_printer
+    raise ImportError(
+ImportError: IProgress not found. Please update jupyter and ipywidgets. See https://ipywidgets.readthedocs.io/en/stable/user_install.html
+Traceback (most recent call last):
+  File "app.py", line 147, in <module>
+    generate_images("warm-up", 1)
+  File "app.py", line 102, in generate_images
+    for i in trange(num_predictions // jax.device_count()):
+  File "/home/imjonezz/.local/lib/python3.8/site-packages/tqdm/notebook.py", line 319, in tnrange
+    return tqdm_notebook(_range(*args), **kwargs)
+  File "/home/imjonezz/.local/lib/python3.8/site-packages/tqdm/notebook.py", line 239, in __init__
+    self.container = self.status_printer(self.fp, total, self.desc, self.ncols)
+  File "/home/imjonezz/.local/lib/python3.8/site-packages/tqdm/notebook.py", line 112, in status_printer
+    raise ImportError(
+ImportError: IProgress not found. Please update jupyter and ipywidgets. See https://ipywidgets.readthedocs.io/en/stable/user_install.html
