@@ -16,7 +16,7 @@ colorama==0.4.3
 command-not-found==0.3
 configobj==5.0.6
 constantly==15.1.0
-cryptography==2.8
+cryptography==3.3.2
 cycler==0.10.0
 dalle-mini==0.0.6
 dbus-python==1.2.16
