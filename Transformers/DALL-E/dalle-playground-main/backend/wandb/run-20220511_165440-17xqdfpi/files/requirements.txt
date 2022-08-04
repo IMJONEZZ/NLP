@@ -143,7 +143,7 @@ tensorflow-estimator==2.5.0
 tensorflow-hub==0.12.0
 tensorflow-metadata==1.1.0
 tensorflow-text==2.5.0
-tensorflow==2.5.0
+tensorflow==2.7.2
 termcolor==1.1.0
 tfds-nightly==4.3.0.dev202107260106
 threadpoolctl==2.2.0
