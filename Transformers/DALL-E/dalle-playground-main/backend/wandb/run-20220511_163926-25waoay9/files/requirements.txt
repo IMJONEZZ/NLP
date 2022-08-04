@@ -88,7 +88,7 @@ pandas==1.3.1
 pathtools==0.1.2
 pexpect==4.6.0
 pillow==9.0.1
-pip==20.0.2
+pip==21.1
 portalocker==2.0.0
 promise==2.3
 protobuf==3.17.3
