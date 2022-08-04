@@ -79,7 +79,7 @@ more-itertools==4.2.0
 msgpack==1.0.3
 netifaces==0.10.4
 nltk==3.6.2
-numpy==1.21.1
+numpy==1.22.0
 oauthlib==3.1.0
 opt-einsum==3.3.0
 optax==0.1.2
