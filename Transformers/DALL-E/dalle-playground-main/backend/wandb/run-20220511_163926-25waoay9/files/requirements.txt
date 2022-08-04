@@ -16,7 +16,7 @@ colorama==0.4.3
 command-not-found==0.3
 configobj==5.0.6
 constantly==15.1.0
-cryptography==2.8
+cryptography==3.3.2
 cycler==0.10.0
 dalle-mini==0.0.6
 dbus-python==1.2.16
@@ -48,7 +48,7 @@ googleapis-common-protos==1.53.0
 grpcio==1.34.1
 gym==0.18.3
 h5py==3.1.0
-httplib2==0.14.0
+httplib2==0.19.0
 huggingface-hub==0.6.0
 hyperlink==19.0.0
 idna==2.8
@@ -78,8 +78,8 @@ mesh-tensorflow==0.1.19
 more-itertools==4.2.0
 msgpack==1.0.3
 netifaces==0.10.4
-nltk==3.6.2
-numpy==1.21.1
+nltk==3.6.6
+numpy==1.22.0
 oauthlib==3.1.0
 opt-einsum==3.3.0
 optax==0.1.2
@@ -87,8 +87,8 @@ packaging==21.0
 pandas==1.3.1
 pathtools==0.1.2
 pexpect==4.6.0
-pillow==8.2.0
-pip==20.0.2
+pillow==9.0.1
+pip==21.1
 portalocker==2.0.0
 promise==2.3
 protobuf==3.17.3
@@ -98,7 +98,7 @@ pyasn1==0.4.2
 pyglet==1.5.15
 pygobject==3.36.0
 pyhamcrest==1.9.0
-pyjwt==1.7.1
+pyjwt==2.4.0
 pymacaroons==0.13.0
 pynacl==1.3.0
 pyopenssl==19.0.0
@@ -109,7 +109,7 @@ python-apt==2.0.0+ubuntu0.20.4.4
 python-dateutil==2.8.2
 python-debian==0.1.36ubuntu1
 pytz==2021.1
-pyyaml==5.3.1
+pyyaml==5.4
 regex==2021.7.6
 requests-oauthlib==1.3.0
 requests-unixsocket==0.2.0
@@ -143,7 +143,7 @@ tensorflow-estimator==2.5.0
 tensorflow-hub==0.12.0
 tensorflow-metadata==1.1.0
 tensorflow-text==2.5.0
-tensorflow==2.5.0
+tensorflow==2.7.2
 termcolor==1.1.0
 tfds-nightly==4.3.0.dev202107260106
 threadpoolctl==2.2.0
@@ -153,13 +153,13 @@ torch==1.9.0
 tqdm==4.61.2
 transformers==4.19.0.dev0
 trax==1.3.9
-twisted==18.9.0
+twisted==22.4.0
 typing-extensions==4.2.0
 ubuntu-advantage-tools==20.3
 ufw==0.36
 unattended-upgrades==0.1
 unidecode==1.3.4
-urllib3==1.25.8
+urllib3==1.26.5
 vqgan-jax==0.0.1
 wadllib==1.3.3
 wandb==0.12.16
