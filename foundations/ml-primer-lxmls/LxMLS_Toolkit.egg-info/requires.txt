@@ -1,0 +1,10 @@
+pyyaml
+numpy
+scipy
+matplotlib
+nltk
+ipdb
+jupyter
+torch
+torchvision
+gym
